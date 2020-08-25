@@ -1,6 +1,6 @@
 <div>
   <p align="center">
-    <img width="800" src="result_video.gif">
+    <img width="500" src="result_video.gif">
   </p>
 </div>
 
@@ -23,7 +23,7 @@
 ## Centroid Tracking Algorithm
 <div>
   <p align="center">
-    <img width="800" src="Centroid Tracking Algorithm.png">
+    <img width="500" src="Centroid Tracking Algorithm.png">
   </p>
 </div>
 
