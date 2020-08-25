@@ -34,13 +34,6 @@
     * 예) sudo python3 object_tracking_and_couning.py --output result_video.avi
   * video : sudo python3 object_tracking_and_couning.py --input 비디오 경로 --output 저장할 비디오 경로
     * 예) sudo python3 object_tracking_and_couning.py --input test_video.mp4 --output result_video.avi
-
-<div>
-  <p align="center">
-    <img width="300" src="result_video/result_video_1.gif">
-  </p>
-</div>
-
 ---
 ## 객체 추적 및 카운팅 시스템(Object Tracking and Counting System)
 * #### 비디오를 저장하지 않을 경우
@@ -55,7 +48,7 @@
     * 예) sudo python3 yolo_object_tracking_and_couning.py --input test_video.mp4 --output result_video_yolo.avi
 <div>
   <p align="center">
-    <img width="300" src="result_video/result_video_3.gif">
+    <img width="300" src="result_video.gif">
   </p>
 </div>
 
