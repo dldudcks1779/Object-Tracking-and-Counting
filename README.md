@@ -20,6 +20,15 @@
   * ##### yolov3.cfg 파일 : 네트워크 구성
   * ##### coco.names 파일 : coco dataset에 사용된 80가지 클래스 이름
 ---
+## Centroid Tracking Algorithm
+<div>
+  <p align="center">
+    <img width="1000" src="Centroid Tracking Algorithm.png">
+  </p>
+</div>
+* #### grid cell로 나누어 한 번에 클래스를 판단하고 통합하여 최종 객체를 판단
+* #### Bounding Box Coordinate(좌표) 및 클래스 Classification(분류)을 동일 신경망 구조를 통해 동시에 실행
+---
 ### 실행 환경
 * #### Ubuntu
 * #### OpenCV Version : 3.x.x
