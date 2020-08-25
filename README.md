@@ -21,6 +21,12 @@
   * ##### coco.names 파일 : coco dataset에 사용된 80가지 클래스 이름
 ---
 ## Centroid Tracking Algorithm
+* #### 1. Object Detection을 통해 단일 프레임에서 감지된 각 객체에 대한 Bounding Box의 좌표를 수집한 후 중심 좌표를 계산
+* #### 2. 각 중심 좌표에 고유 ID를 할당하고 객체가 움직이면서 갱신되는 새로운 프레임의 중심 좌표와 기존 프레임의 중심 좌표 사이의 유클리드 거리(Euclidean Distance)를 계산
+  * ##### 유클리드 거리(Euclidean Distance) : 두 점 사이의 거리
+* #### 3. 기존 프레임의 중심 좌표와 새로운 프레임의 중심 좌표 사이의 유클리드 거리가 가장 가까운 두 쌍은 동일 객체라고 판단하고 기존의 ID를 할당
+  * ##### 허용하는 최대 거리 지정
+* #### 4. ID가 할당되지 않은 중심 좌표에는 새로운 객체라고 판단하여 고유한 ID를 할당
 <div>
   <p align="center">
     <img width="500" src="Centroid Tracking Algorithm.png">
