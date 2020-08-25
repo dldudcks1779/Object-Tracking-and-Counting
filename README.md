@@ -1,3 +1,9 @@
+<div>
+  <p align="center">
+    <img width="1000" src="result_video.gif">
+  </p>
+</div>
+
 ## MobileNet SSD
 * #### 빠르고 효율적인 딥러닝 기반 Object Detection을 위해 MobileNet과 SSD를 결합한 MobileNet SSD를 사용
 * #### 이미지를 분류하기 위한 CNN(Convolution Neural Network)의 MobileNet은 같은 레이어 수의 다른 CNN 구조에 비해 낮은 파라미터 수로 인하여 작은 응답 지연 시간을 가짐
@@ -46,10 +52,5 @@
     * 예) sudo python3 yolo_object_tracking_and_couning.py --output result_video_yolo.avi
   * video : sudo python3 yolo_object_tracking_and_couning.py --input 비디오 경로 --output 저장할 비디오 경로
     * 예) sudo python3 yolo_object_tracking_and_couning.py --input test_video.mp4 --output result_video_yolo.avi
-<div>
-  <p align="center">
-    <img width="300" src="result_video.gif">
-  </p>
-</div>
 
 ---
