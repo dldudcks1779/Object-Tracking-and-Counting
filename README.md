@@ -1,6 +1,6 @@
 <div>
   <p align="center">
-    <img width="1000" src="result_video.gif">
+    <img width="800" src="result_video.gif">
   </p>
 </div>
 
@@ -23,9 +23,10 @@
 ## Centroid Tracking Algorithm
 <div>
   <p align="center">
-    <img width="1000" src="Centroid Tracking Algorithm.png">
+    <img width="800" src="Centroid Tracking Algorithm.png">
   </p>
 </div>
+
 * #### grid cell로 나누어 한 번에 클래스를 판단하고 통합하여 최종 객체를 판단
 * #### Bounding Box Coordinate(좌표) 및 클래스 Classification(분류)을 동일 신경망 구조를 통해 동시에 실행
 ---
