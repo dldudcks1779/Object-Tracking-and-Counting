@@ -65,7 +65,7 @@ trackers = []
 # 추적 객체 ID
 trackableObjects = {}
 
-# 총 프레뛸임 수
+# 총 프레임 수
 totalFrames = 0 # 총 프레임 수
 
 # 총 이동 객체 수
